@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Name=Xfce systemd Session
+Comment=Run Xfce session with systemd user daemon integration
+Exec=/usr/bin/systemctl --user --wait start xfce4-session.service
+Icon=
+Type=Application

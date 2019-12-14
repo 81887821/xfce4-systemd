@@ -1,0 +1,5 @@
+[Unit]
+BindsTo=graphical-session.target
+
+[Service]
+ExecStart=/usr/bin/startxfce4
